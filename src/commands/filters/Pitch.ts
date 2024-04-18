@@ -31,7 +31,7 @@ export default class Pitch extends Command {
                 {
                     name: 'number',
                     description: 'The number you want to set the pitch to',
-                    type: ApplicationCommandOptionType.Integer,
+                    type: ApplicationCommandOptionType.Number,
                     required: true,
                 },
             ],
