@@ -31,7 +31,7 @@ export default class Speed extends Command {
                 {
                     name: 'speed',
                     description: 'The speed you want to set',
-                    type: ApplicationCommandOptionType.Integer,
+                    type: ApplicationCommandOptionType.Number,
                     required: true,
                 },
             ],
